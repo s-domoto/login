@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ /* Overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 2;
+    
+}
+
+.btn {
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 13px 20px;
+    border-radius: 4px;
+    transition: box-shadow 0.1s, top 0.1s;
+    box-shadow: 0 3px 0 rgba(0,0,0,0.3);
+    top: 0;
+    background: #fff;
+}
+
+#btn-modal{
+    position: relative;
+    float: right;
+    transition: all 0.5s;
+    line-height: 65px;
+    margin: 0 25px;
+    padding: 0px 25px;
+    color: white;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#btn-modal:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s;
+    color: gray;
+    cursor : pointer;
+}
+#btn-modal:active {
+    background: #f2f2f2;
+}
+.header{
+	background-color: rgba(32 , 178 , 170, 0.5);
+    height: 65px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(cafe.jpg);
+    background-size: cover;
+    z-index: 0;
+}
+.footer{
+    bottom: 0;
+    width:100%;
+    position: fixed;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="./login.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<title>トップページ</title>
+</head>
+<body>
+<!-- ヘッダ -->
+<div class="header">
+	<a id="btn-modal">ログイン</a>
+</div>
+<!-- メインコンテンツ -->
+<div class="main">
+TEST PAGE
+</div>
+<!-- モーダル -->
+<div class="overlay" id="overlay"></div>
+	<div class="wrapper" id="modal">
+		<div class="container">
+			<h1>ログイン</h1>
+			<form class="form" action="login.php" method="post">
+				<input type="text" name="id" placeholder="ユーザーID">
+				<input type="password" name="pass" placeholder="パスワード">
+				<button type="submit" id="login-button">ログイン</button>
+			</form>
+		</div>                    
+		<ul class="bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</div>
+
+<!-- フッタ -->
+<div class="footer">
+Copyright 2018
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
